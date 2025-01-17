@@ -8,8 +8,7 @@ agent any
 stage('Build') {
             steps {
                 
-                echo 'test message from main'
-                echo 'checking the web hook triger'
+                npm  -version
             }
         }
 
